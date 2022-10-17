@@ -10,11 +10,11 @@ private:
 
 public:
 	Fraction(int numerator, int denominator);
-	long double res();
-	bool operator==(Fraction other);
-	bool operator!=(Fraction other);
-	bool operator<(Fraction other);
-	bool operator>(Fraction other);
-	bool operator>=(Fraction other);
-	bool operator<=(Fraction other);
+	long double res() const;
+	bool operator==(Fraction other) const;
+	bool operator!=(Fraction other) const;
+	bool operator<(Fraction other) const;
+	bool operator>(Fraction other) const;
+	bool operator>=(Fraction other) const;
+	bool operator<=(Fraction other)const;
 };
